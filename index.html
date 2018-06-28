@@ -16,7 +16,8 @@
     <link href="css/style.css" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous">
-    
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="style.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Annie+Use+Your+Telescope|Codystar|Indie+Flower|Nanum+Pen+Script" rel="stylesheet">
 </head>
@@ -27,7 +28,13 @@
         <source src="nature.mp4" type="video/mp4">
     </video>
 
-
+    <div class="w3-sidebar w3-bar-block" id="sidebar" style="width:70px">
+            <a href="#" class="w3-bar-item w3-button sideColor"><i class="fa fa-home"></i></a> 
+            <a href="#" class="w3-bar-item w3-button sideColor"><i class="fa fa-search"></i></a> 
+            <a href="#" class="w3-bar-item w3-button sideColor"><i class="fa fa-envelope"></i></a> 
+            <a href="#" class="w3-bar-item w3-button sideColor"><i class="fa fa-globe"></i></a> 
+          </div>
+    
     <nav class="navbar navbar-expand-lg">
         <a class="navbar-brand" href="#">Name Here</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -37,7 +44,7 @@
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="linkContainer">
-                <ul class="navbar-nav mr-auto">
+                <!-- <ul class="navbar-nav mr-auto">
                     <li class="nav-item active">
                         <a class="nav-link" href="#">Home
                             <span class="sr-only">(current)</span>
@@ -58,16 +65,18 @@
                             <a class="dropdown-item" href="#">Something else here</a>
                         </div>
                     </li>
-                </ul>
+                </ul> -->
             </div>
 
         </div>
     </nav>
 
+    
 
     <div class="container">
+        
         <div class="row">
-            <div class="col-lg-10 offset-lg-1">
+            <div class="col-lg-10 offset-lg-1 w3-animate-zoom">
                 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
                     <ol class="carousel-indicators">
                         <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -97,7 +106,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="col-lg-12" id="about">
+            <div class="col-lg-12 w3-animate-zoom" id="about">
                 <center>
                     <h1 id="aboutHeader">About</h1>
                     <p id="aboutContent">
@@ -110,12 +119,23 @@
                         dolor alias aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel ipsa sequi provident
                         quas illo ipsum recusandae, rem iure consequatur totam quasi officia molestias. Voluptatibus magnam
                         laboriosam minus dolor alias aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vel
-                        
+
                     </p>
                 </center>
             </div>
         </div>
     </div>
+    <script>
+
+        function w3_open() {
+            document.getElementById("mySidebar").style.display = "block";
+        }
+        function w3_close() {
+            document.getElementById("mySidebar").style.display = "none";
+        }
+    </script>
+
+
 
 
 </body>
