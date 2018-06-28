@@ -68,6 +68,13 @@
 
 }
 
+#propic {
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-style: groove;
+}
+
 #about {
     background-color: rgba(189, 255, 223, 0.4);;
     border-style: groove;
