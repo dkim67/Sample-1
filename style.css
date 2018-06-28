@@ -1,0 +1,87 @@
+.navbar {
+    background-color: rgba(189, 255, 223, 0.4);
+    border-bottom-style: outset;
+    height: 90px;
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+    
+}
+
+.btn {
+    color: rgb(95, 225, 95);
+}
+
+.linkContainer {
+    margin-left: 610px;
+    margin-right: 100px;
+    margin-top: 5px;
+    
+}
+
+.navbar-brand {
+    color: white;
+    font-family: 'Codystar', cursive;
+    font-weight: bold;
+    font-size: 65px;
+    text-shadow: 5px 2px 0px rgb(0, 0, 0);
+}
+
+.nav-link {
+    color: white;
+    font-family: 'Indie Flower', cursive;
+    font-size: 22px;
+    margin-right: 10px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+.carousel {
+    margin-top: 125px;
+    opacity: .9;
+    border-style: groove;
+    border-width: 8px;
+    
+  }
+
+  #form {
+      margin-right: 10px;
+  }
+
+  #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: 0;
+}
+
+#about {
+    background-color: rgba(189, 255, 223, 0.4);;
+    border-style: groove;
+    border-width: 8px;
+    color: white;
+    margin-top: 40px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+    padding: 20px;
+    margin-bottom: 40px;
+
+}
+
+#aboutHeader {
+    margin-bottom: 25px;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 72px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+}
+
+#aboutContent {
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 30px;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 0px rgb(0, 0, 0);
+
+}
+img{
+    height:555px;
+    width:auto;
+}
